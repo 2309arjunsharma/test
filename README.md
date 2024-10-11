@@ -34,3 +34,9 @@ git push -u origin main
 # To deactivate an active environment, use
 #
 #     $ conda deactivate
+
+Command: conda install -n venv ipykernel --update-deps --force-reinstall
+
+pip install -U ipykernel
+
+
